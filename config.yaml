@@ -1,0 +1,24 @@
+AppName: Postman-Delivery-Management
+AppEnv: development
+#AppEnv: production
+
+HttpUrl: 127.0.0.1
+HttpPort: 111
+HttpAllowedOrigins: "*"
+loglevel: info
+
+DBConnection: postgres
+DBHost: localhost
+DBPort: 5433
+DBdatabase: project
+DBUsername: postgres
+DBPassword: dop123*
+
+
+RedisServer: localhost:6379
+RedisPassword: 
+
+TokenSymmetricKey: 12345678901234567890123456789012
+TokenDuration: 15m
+ShutDownTime: 1ms
+ShutDowntype: 
